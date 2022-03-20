@@ -1,0 +1,66 @@
+---
+title: "Lab 08"
+author: '[Group Names Here]'
+subtitle: 'due Friday March 25 at 11:59 PM '
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+```
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(tidymodels)
+``` 
+
+```{r load-data, message = FALSE}
+ultra_rankings = read_csv("ultra_rankings.csv")
+race = read_csv("race.csv")
+```
+
+# Exercise 1
+
+```{r ex-1}
+# code here
+```
+
+# Exercise 2
+
+```{r ex-2}
+# code here
+```
+
+# Exercise 3
+
+```{r ex-3}
+# code here
+```
+
+# Exercise 4
+```{r ex-4}
+# code here
+```
+
+# Exercise 5
+
+```{r ex-5}
+# code here
+```
+
+# Exercise 6
+
+```{r ex-6}
+# code here
+```
+
+# Exercise 7
+
+```{r ex-7}
+# code here
+```
